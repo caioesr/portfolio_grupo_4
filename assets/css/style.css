@@ -86,3 +86,20 @@
   width: 350px;
   margin-left: 10px;
 }
+
+.components {
+  position: absolute;
+  display: inline-flex;
+  top: 600px;
+  margin-left: 5px;
+}
+
+.components-init {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.components-list {
+  margin-right: 100px;
+}

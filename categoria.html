@@ -3,24 +3,40 @@
 <head>
   <title>Categoria</title>
   <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
   <meta charset="utf-8"/>
 </head>
 <body>
-  <h1>Design</h1>
+  <header class="header">
+    <img class="logo" src="https://picsum.photos/100" alt="logo">
+    <nav>
+      <ul class="nav-buttons">
+        <li class="nav-item"><a href="categoria.html">Design</a></li>
+        <li class="nav-item"><a href="categoria.html">Eletrônica</a></li>
+        <li class="nav-item"><a href="categoria.html">Matemática</a></li>
+        <li class="nav-item"><a href="categoria.html">Programação</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <p>
-    <img src="assets/img/Design.jpg" alt='Design thinkng'>
-  </p>
+  <main>
+    <div class="container-1">
+      <div class="container-1a"><img class="main-img" src="assets/img/Design.jpg" alt="design thinking"></div>
 
-  <p>
-    Aqui você encontrara todos os projetos ligados a design thinking e UX.
-  </p>
+      <div class="container-1b"><h1 class="title">Design</h1>
 
-  <ol>
-    <li>
-      <img src="assets/img/Robozito.jpeg" alt='Robozito'>
-      <a href="projeto.html">Primeiro Projeto da materia de Natureza do Desing</a>
-    </li>
-  </ol>
+      <p class="description">
+        Aqui você encontrará projetos que usam os conceitos de design thinking e UX!
+      </p></div>
+    </div>
+
+    <ul class="categorias">
+      <div class="superior">
+        <div class="item">
+          <li class="categorias-item"><a href="projeto.html"><img class="categorias-img" src="assets/img/Robozito.jpeg" alt='Robozito'></a></li>
+          <p class="categorias-description">Primeiro projeto da disciplina de design que consiste em construir um robô. Aka Robozito!</p>
+        </div>
+    </ul>
+</main>
 </body>
 </html>
