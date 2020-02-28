@@ -2,26 +2,52 @@
 <html lang="pt-br">
 <head>
   <title>Projetos do primeiro ano de engenharia</title>
-  <meta charset="utf-8"/>
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <meta charset="utf-8">
 </head>
 <body>
-  <h1>Projetos de engenharia</h1>
-  <h2>Proprietário: Um Dois de Oliveira Três</h2>
+  <header class="header">
+    <img class="logo" src="https://picsum.photos/100" alt="logo">
+    <nav>
+      <ul class="nav-buttons">
+        <li class="nav-item"><a href="categoria.html">Design</a></li>
+        <li class="nav-item"><a href="categoria.html">Eletrônica</a></li>
+        <li class="nav-item"><a href="categoria.html">Matemática</a></li>
+        <li class="nav-item"><a href="categoria.html">Programação</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <p>
-    <img src="assets/img/index_image.jpg" alt="imagem de projetos">
-  </p>
+  <main>
+    <div class="container-1">
+      <div class="container-1a"><img class="main-img" src="assets/img/index_image.jpg" alt="imagem de projetos"></div>
 
-  <p>
-    Quer saber alguns projetos interessantes para começar em engenharia?
-    Veja alguns exemplos abaixo:
-  </p>
+      <div class="container-1b"><h1 class="title">Projetos de engenharia</h1>
+      <h2 class="author">Proprietário: Um Dois de Oliveira Três</h2>
 
-  <ul>
-    <li><a href="categoria.html">Design</a></li>
-    <li><a href="categoria.html">Eletrônica</a></li>
-    <li><a href="categoria.html">Matemática</a></li>
-    <li><a href="categoria.html">Programação</a></li>
-  </ul>
+      <p class="description">
+        Quer saber alguns projetos interessantes para começar em engenharia?
+        Veja alguns exemplos abaixo:
+      </p></div>
+    </div>
+
+    <ul class="categorias">
+      <div class="superior">
+        <div class="item">
+          <li class="categorias-item"><a href="categoria.html"><img class="categorias-img" src="https://picsum.photos/101" alt="design"></a></li>
+          <p class="categorias-description"> Projetos que envolvem conceitos de Design e UX.</p>
+          <li class="categorias-item"><a href="categoria.html"><img class="categorias-img" src="https://picsum.photos/102" alt="eletrônica"></a></li>
+          <p class="categorias-description"> Projetos que envolvem conceitos de Eletrônica.</p>
+        </div>
+        <div class="item">
+          <li class="categorias-item"><a href="categoria.html"><img class="categorias-img" src="https://picsum.photos/103" alt="matemática"></a></li>
+          <p class="categorias-description"> Projetos que envolvem conceitos de Matemática.</p>
+          <li class="categorias-item"><a href="categoria.html"><img class="categorias-img" src="https://picsum.photos/104" alt="programação"></a></li>
+          <p class="categorias-description"> Projetos que envolvem conceitos de Programação.</p>
+        </div>
+      </div>
+    </ul>
+  </main>
 </body>
 </html>
