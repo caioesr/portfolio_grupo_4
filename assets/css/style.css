@@ -1,103 +1,123 @@
 .header {
-  position: absolute;
-  left: 5px;
-  top: 10px;
-  width: 1200px;
-  height: 70px;
+  left: 5%;
+  top: 10%;
+  width: 100%;
+  height: 100%;
   border-style: solid;
   border-width: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.main-img-cont{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 10rem;
+
 }
 
 .logo {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 100px;
-  height: 50px;
+  margin: 0.5rem;
+  width: 5rem;
+  height: 3rem;
 }
 
 .nav-buttons {
-  position: absolute;
-  left: 120px;
-  top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .nav-item {
-  display: inline;
-  margin-left: 10px;
+  margin-left: 0.5rem;
+  border-width: 0.5px;
+  border-style: solid;
 }
 
 .container-1 {
-  position: absolute;
-  display: inline-flex;
-  top: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:row;
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
 }
 
 .main-img {
-  height: 450px;
-  width: 550px;
-  margin-right: 10px;
-  margin-left: 5px;
+  width: 100%;
+  height: 100%;
 }
 
 .title {
   font-weight: bold;
-  font-size: 50px;
-  margin-bottom: 10px;
+  font-size: 2rem;
 }
 
 .author {
   font-weight: 700;
-  font-size: 25px;
-  margin-bottom: 10px;
+  font-size: 1.25rem;
 }
 
 .description {
-  font-size: 20px;
-  margin-top: 10px;
-  width: 700px;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+.title .author .description{
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .categorias {
-  position: absolute;
-  top: 600px;
-  margin-left: 5px;
-}
-
-.superior {
-   display: grid;
-}
-
-.categorias-img {
-  height: 120px;
-  width: 200px;
-}
-
-.item {
-  display: inline-flex;
-  margin-bottom: 20px;
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .categorias-item {
-  margin-right: 15px;
+  background-color: silver;
+  margin-top: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+}
+
+.categorias-img {
+  width: 10rem;
+  height: 10rem;
 }
 
 .categorias-description {
-  width: 350px;
-  margin-left: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1rem;
+  width: 15rem;
+  height: 15rem;
+}
+.sections-menu-item-text-title{
+  padding-bottom: 0.5rem;
 }
 
 .components {
-  position: absolute;
-  display: inline-flex;
-  top: 600px;
-  margin-left: 5px;
+  flex-direction: column;
 }
 
 .components-init {
   font-weight: 700;
-  font-size: 25px;
-  margin-bottom: 10px;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
 .components-list {
