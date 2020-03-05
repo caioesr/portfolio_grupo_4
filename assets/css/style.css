@@ -47,8 +47,8 @@
 }
 
 .main-img {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
 }
 
 .title {
@@ -93,7 +93,7 @@
 }
 
 .categorias-img {
-  width: 10rem;
+  width: 15rem;
   height: 10rem;
 }
 
@@ -103,7 +103,7 @@
   justify-content: center;
   flex-direction: column;
   padding-left: 1rem;
-  width: 15rem;
+  width: 20rem;
   height: 15rem;
 }
 .sections-menu-item-text-title{
