@@ -3,10 +3,16 @@
   top: 10%;
   width: 100%;
   height: 100%;
-  border-style: solid;
+  border-bottom: solid;
   border-width: 1px;
+  border-color: #0d6da8;
   display: flex;
   align-items: center;
+  background-color: #45b1f5;
+}
+
+.body {
+  background-color: #ffbd61;
 }
 
 .main-img-cont{
@@ -31,10 +37,13 @@
 
 .nav-item {
   margin-left: 0.5rem;
-  border-width: 0.5px;
-  border-style: solid;
   font-family: 'Oxanium', cursive;
   font-size: 1.25rem;
+}
+
+.nav-item-link {
+  color: white;
+  text-decoration: none;
 }
 
 .container-1 {
@@ -45,29 +54,35 @@
   margin-top: 1rem;
   width: 100%;
   height: 100%;
+  background-color: #f5ab45;
 }
 
 .main-img {
   width: 50%;
   height: 50%;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .title {
   font-weight: bold;
   font-family: 'Oxanium', cursive;
   font-size: 2rem;
+  color: #0d6da8;
 }
 
 .author {
   font-weight: 700;
   font-family: 'Oxanium', cursive;
   font-size: 1.25rem;
+  color: #333;
 }
 
 .description {
   font-size: 1rem;
   margin-top: 1.5rem;
   font-family: 'Courier Prime', monospace;
+  color: #333;
 }
 
 .title .author .description{
@@ -86,7 +101,7 @@
 }
 
 .categorias-item {
-  background-color: silver;
+  background-color: #f5ab45;
   margin-top: 1rem;
   padding-right: 1rem;
   display: flex;
@@ -110,6 +125,7 @@
   width: 20rem;
   height: 15rem;
   font-family: 'Courier Prime', monospace;
+  color: #333;
 }
 .sections-menu-item-text-title{
   padding-bottom: 0.5rem;
@@ -124,6 +140,7 @@
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
   font-family: 'Oxanium', cursive;
+  color: #0d6da8;
 }
 
 .components-list {
@@ -134,4 +151,11 @@
 .categorias-description-title {
   font-family: 'Oxanium', cursive;
   font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+  color: #0d6da8;
+}
+
+.components-list-item {
+  color: #333;
 }
