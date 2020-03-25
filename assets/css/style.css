@@ -158,7 +158,13 @@
   color: #333;
 }
 
-@media (max-width: 400px) {
+.maequitacaodes{
+  display: none
+}
+.ogrinas{
+  display:none
+}
+@media (max-width: 375px) {
   .nav-item {
     font-size: 0.75rem;
   }
@@ -177,5 +183,17 @@
   .main-img {
     width: 100%;
     height: 50%;
+  }
+  .maequitacaodes{
+    display: block
+  }
+  .ogrinas{
+    width: 20%;
+    height: 20%;
+    margin-left: 80%;
+    display:block
+  }
+  .nav-buttons{
+    display:none
   }
 }
