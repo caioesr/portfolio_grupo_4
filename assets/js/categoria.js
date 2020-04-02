@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
   let params = coDesExtract()
   let value = params['key']
+  let value2 = document.querySelector('.nav-item-link')
+  value2.href = 'projeto.html?pi='+value+'&key={{@key}}'
 
   let db = coDesConnect('https://projeto-codes-2020-1.firebaseio.com/')
 
@@ -9,5 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.nav-buttons', context)
     context = data['portfolio'][value]
     coDesReplace('.container-1', context)
+    coDesReplace('.categorias',context)
   })
 })
